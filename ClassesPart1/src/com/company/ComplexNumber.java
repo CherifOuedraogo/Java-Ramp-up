@@ -33,11 +33,5 @@ public class ComplexNumber {
         this.real = real - complexNumber.getReal();
         this.imaginary = imaginary - complexNumber.getImaginary();
     }
-    /*public ComplexNumber add(ComplexNumber com1, ComplexNumber com2){
-        ComplexNumber temp = new ComplexNumber(0, 0);
-        temp.real = com1.getReal() + com2.getReal();
-        temp.imaginary = com1.getImaginary() + com2.getImaginary();
-        return  temp;
-    }*/
-
+    
 }
